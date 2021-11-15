@@ -1,0 +1,75 @@
+
+.trajet-card{
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid rgb(216, 216, 216);
+    border-radius: 5px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    height: 210px;
+    }
+
+.trajet-row{
+    padding:10px;
+    margin-top: 10px;
+    width: 200px;
+}
+.trajet-row i{
+    color: rgb(212, 200, 26);
+    padding-right: 5px;
+}
+.trajet-row span{
+font-weight: bold;
+color: gray;
+}
+
+
+.trajet-body{
+    display: flex;
+    flex-direction: column  ;
+}
+.image{
+    width: 150px;
+    height: 100% !important;
+    background-color: rgba(111, 111, 233, 0.226);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(68, 166, 211);
+    font-size: 2em;
+}
+
+.trajet-action {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.trajet-action button {
+ width: 200px;
+ padding: 12px 26px;
+ border: 1px solid rgb(6, 56, 163);
+ background-color: transparent;
+ color: rgb(6, 56, 163) ;
+}
+.trajet-action button:hover {
+    padding: 12px 26px;
+    background-color: rgb(6, 56, 163);
+    color: rgb(255, 255, 255) ;
+    transition-duration: .3s;
+   }
+
+   .loading{
+       width: 100%;
+       height: 300px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+
+   }
+   .loading img{
+   width: 60px;
+    
+}

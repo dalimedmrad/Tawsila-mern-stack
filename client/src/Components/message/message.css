@@ -1,0 +1,12 @@
+.message{
+    width: 100%;
+    height: 360px;
+    
+}
+h1{
+    text-align: center;
+    padding: 7%;
+    margin: 10%;
+    align-items: center;
+    font-size: 60px;
+}
